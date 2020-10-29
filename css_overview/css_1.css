@@ -5,6 +5,14 @@ p{
 	font-size:36px;
 }
 .info{
+	width: 250px;
 	background-color: green;
 	border:1px solid black;
+	display: inline-block;
+}
+
+div{
+	height: 50px;
+	overflow: scroll;
+	display: ;
 }
