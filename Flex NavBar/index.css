@@ -1,0 +1,45 @@
+* {
+    font-family: 'Montserrat';
+}
+
+.center-box{
+    width: 1000px;
+    height: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: blue;
+}
+
+.center-item{
+    width: 75px;
+    height: 75px;
+    background-color: beige;
+}
+
+.header-nav {
+    width: 1000px;
+    height: 200px;
+    background-color: #6495ed;
+    padding: 0px 15px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    color: white;
+    font-weight: bolder;
+}
+
+a {
+    color: white;
+    text-decoration: none;
+    font-weight: bolder;
+    
+}
+
+a:hover {
+    color: black;
+}
+
+img {
+    height: 75px;
+}
