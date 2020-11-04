@@ -1,0 +1,44 @@
+.container{
+    background-color: #d5d2ae;
+    width: 700px;
+    padding: 20px;
+    margin: auto;
+}
+
+.imagesBox{
+    display: inline-block;
+    text-align: center;
+}
+
+img{
+    width: 100px;
+    height: 100px;
+}
+
+img.blue{
+    background-color: lightskyblue;
+    padding: 10px;
+    border: 1px solid black;
+}
+
+img.red{
+    background-color: lightsalmon;
+    padding: 10px;
+    border: 1px solid black;
+}
+
+.headerContent{
+    display: flex;
+    justify-content: space-evenly;
+    justify-items: center;
+    margin-bottom: 50px;
+}
+
+.header{
+    float:left;
+
+}
+
+img.titleImage{
+    width: 50px;
+}
