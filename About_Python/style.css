@@ -5,7 +5,8 @@
 .baselayer{
     background-color: #245076;
     width: 970px;
-    padding: 30px 0px;
+    padding: 30px 0px 0px 0px;
+    margin: auto;
 }
 
 .header{
@@ -22,7 +23,6 @@
 
 .headerBoxRight{
     display: inline-block;
-    border: 2px solid red;
 }
 
 img.logo{
@@ -34,7 +34,6 @@ img.logo{
     display: block;
     width: 300px;
     font-size: small;
-    border: 2px solid blue;
     text-align: right;
     color: white;
 }
@@ -49,10 +48,24 @@ a.font{
     background-color: #444444;
     border-radius: 5%;
     padding: 15px 5px;
+    box-shadow: 2px 2px black;
 }
 
 .searchBar{
     text-align: center;
+}
+
+input[id="search"]{
+    font-size: 20px;
+    border: 2px outset;
+}
+
+input[id="button"]{
+    background-color: #245076;
+    border-radius: 10px;
+    border: 1px inset silver;
+    color: white;
+    height: 25px;
 }
 
 .navBar{
@@ -136,9 +149,22 @@ a.side{
 
 a.small{
     color: lightblue;
+    text-decoration: none;
+    font-size: 20px;
+}
+
+a.small:hover{
+    color: black;
 }
 
 .footer{
     display: flex;
-    justify-content: space-around;
+    justify-content: space-evenly;
+    background-image: linear-gradient(#245076, #3272a9);
+    padding: 30px;
+}
+
+.footerLinks{
+    display: inline;
+    vertical-align: bottom;
 }
