@@ -81,10 +81,6 @@ input[id="button"]{
     border-radius: 5px;
 }
 
-.navItems{
-    display: inline;
-}
-
 a.nav{
     color: white;
     text-decoration: none;
@@ -107,6 +103,11 @@ a.nav:hover{
     color: white;
     line-height: 1.5em;
     font-size: large;
+}
+
+ul li{
+    padding-left: 20px;
+    list-style-position: inside;
 }
 
 a.side{
