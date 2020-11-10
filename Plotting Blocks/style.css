@@ -2,48 +2,47 @@
 *{
     margin: 0px;
     padding: 0px;
-   }
-   #wrapper{
+}
+#wrapper{
     width: 950px;
     background-color: silver;
     margin: 10px auto;
     padding: 10px 10px;
-   }
-   #header{
+}
+#header{
     min-height: 150px;
     background-color: green;
     margin: 10px;
     display: block;
-   }
-   #navigation{
+}
+#navigation{
     min-height: 300px;
     width: 200px;
     background-color: blue;
     margin: 0px 25px 0px 10px;
     display: inline-block;
     vertical-align: top;
-   }
-   #main_content{
+}
+#main_content{
     min-height: 400px;
     width: 700px;
     background-color: red;
     display: inline-block;
     padding-top: 10px;
+    text-align: center;
 
-   }
-   .subcontents{
+}
+.subcontents{
     min-height: 200px;
-    width: 210px;
+    width: 200px;
     background-color: yellow;
-    margin: 0px 0px 10px 10px;
-    display: inline;
-    float: left;
-   }
-   #advertisement{
+    margin: 10px;
+    display: inline-block;
+}
+#advertisement{
     min-height: 120px;
     width: 650px;
     background-color: purple;
     display: inline-block;
-    margin: 10px;
-   }
-   
+    margin: auto;
+}
