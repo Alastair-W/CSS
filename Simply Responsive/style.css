@@ -1,0 +1,66 @@
+
+div{
+    border: 1px solid grey;
+    margin: 5px 0px;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 10px;
+}
+
+.header{
+    background-color: grey;
+}
+
+.central{
+    background-color: lightgray;
+}
+
+.footer{
+    background-color: lightyellow;
+}
+
+
+
+@media only screen and (max-width: 480px){
+    .sm{
+        width: 100%;
+    }
+
+    .md{
+    /* we will not display anything with the class .sm-0 if the screen's width is less than 480px */
+        display: none;
+    }
+
+    .lg{
+    /* we will not display anything with the class .sm-0 if the screen's width is less than 480px */
+        display: none;
+    }
+}
+
+@media only screen and (min-width: 481px) and (max-width: 1023px){
+    .sm{
+    /* we will not display anything with the class .sm-0 if the screen's width is less than 480px */
+        display: none;
+    }
+
+    .lg{
+    /* we will not display anything with the class .sm-0 if the screen's width is less than 480px */
+        display: none;
+    }
+
+}
+
+@media only screen and (min-width: 1024px){
+    .sm{
+    /* we will not display anything with the class .sm-0 if the screen's width is less than 480px */
+        display: none;
+    }
+
+    .md{
+    /* we will not display anything with the class .sm-0 if the screen's width is less than 480px */
+        display: none;
+    }
+
+    .lg{
+        width:100%;
+    }
+}
